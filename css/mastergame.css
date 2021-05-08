@@ -1,0 +1,115 @@
+
+
+/*#j1{
+
+height: 10%;
+width: 10%;
+pad-left: 40px;
+margin-top: 100px;
+
+}
+
+#J2{
+  height:7%;
+  width: 7%;
+}
+
+#J3{
+  height:10%;
+  width: 10%;
+}
+
+#J4{
+  height:10%;
+  width: 10%;
+}
+*/
+body {  background: url('images/fond.gif') top center no-repeat ;
+background-size: cover;
+  }
+
+img{
+width: 100%;
+}
+
+#intero{
+  position: relative;
+left: -150px;
+
+}
+.personnages_rg li{
+border:0px solid red;
+  flex-basis: 120px;
+  flex-shrink: 1;
+  position: relative;
+  left: 331px;
+top: 50px;
+}
+.personnages_rg{
+display: flex;
+max-width: 320px;
+flex-wrap: wrap;
+justify-content: space-evenly;
+/*transform: rotate(-20deg);*/
+
+}
+.personnages_rg li{
+border:0px solid red;
+  flex-basis: 120px;
+  flex-shrink: 1;
+  position: relative;
+  left: 331px;
+top: 116px;
+}
+
+#J5,#J2{
+position: relative;
+top:-30px;
+
+}
+.action {
+background-color: white;
+display: flex;
+max-width: 320px;
+flex-wrap: wrap;
+justify-content: space-evenly;
+/*transform: rotate(-20deg);*/
+
+}
+.action li{
+border:0px solid red;
+
+  position: relative;
+  left: 900px;
+bottom: : 100px;
+}
+
+
+#action1{
+width: 500px
+}
+#action2{
+position: relative;
+top:50px;
+}
+#action7{
+position: relative;
+top:-15px;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+}
+
+.panneaux {
+  position: absolute;
+  top : 0;
+  left : 0;
+  max-width: 220px;
+}
+
+.panneaux{
+
+
+}

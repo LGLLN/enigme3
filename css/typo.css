@@ -1,0 +1,48 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Rowdies&display=swap');
+
+
+p{
+font-family: 'Crete';
+font-size:24px;
+}
+
+nav{
+  font-family: 'Rowdies', cursive;
+  font-size: 30px;
+  color:white;
+}
+#section01
+h1{
+  font-family: 'Rowdies', cursive;
+
+}
+.boutton{
+  font-family: 'Rowdies', cursive;
+  font-size: 40px;
+  color: #002d30;
+  margin-top: 1,5em;
+}
+
+#section03
+h2{
+  font-family: 'Rowdies', cursive;
+font-size:40px;
+color: white;
+}
+
+
+#section06
+h2{
+  font-family: 'Rowdies', cursive;
+font-size:2em;
+color: white;
+}
+
+
+#footer
+h1{
+  font-family: 'Rowdies', cursive;
+  font-size:4em;
+}
