@@ -27,22 +27,57 @@ img {
 }
 
 main {
-  border: 1px solid yellow;
   display: flex;
   justify-content: space-between;
 }
 
 #etats {
+  margin-top: 15vh;
+  display: flex;
+  justify-content: space-between;
+  flex-grow: 1;
+}
+
+#etats > div {
   flex-basis: 30vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rive_gauche {
+  align-self: flex-start;
+}
+
+.rive_droite {
+  align-self: flex-end;
 }
 
 aside {
-  flex-basis: 20vw;
+  flex-basis: 15vw;
   background-color: rgba(255, 255, 255, 0.5);
   padding: 2em 2.75em;
   margin: 1em;
   border-radius: 1em;
 }
+
+
+/* ### Position des personages rive gauche ### */
+
+#etats ul {
+  display: flex;
+  max-width: 320px;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+
+}
+
+#etats li {
+  flex-basis: 120px;
+  flex-shrink: 1;
+  transform: rotate(-25deg);
+}
+
 
 /*
 
@@ -52,21 +87,9 @@ aside {
   left: -150px;
 }
 
-.personnages_rg li {
-  border: 0px solid red;
-  flex-basis: 120px;
-  flex-shrink: 1;
-  position: relative;
-  left: 331px;
-  top: 50px;
-}
 
-.personnages_rg {
-  display: flex;
-  max-width: 320px;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-}
+
+
 
 .personnages_rg li {
   border: 0px solid red;
